@@ -1,0 +1,47 @@
+.active-btn:hover,
+.active-btn {
+    border-color: greenyellow;
+    background-color: greenyellow;
+}
+
+.ctrl-btn {
+    width: 112px;
+    margin-right: 20px;
+
+}
+
+.ctrl-div {
+    margin-top: 11px;
+}
+
+#main-container {
+    border: solid;
+    width: 600px;
+    height: 600px;
+    margin-top: 27px;
+    border-style: inset;
+    border-color: rgba(255, 0, 0, .7);
+
+}
+
+.flex-center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 35px;
+    width: 8em;
+
+    margin-top: 10px;
+}
+
+
+#controls {
+    width: 333px;
+    flex-flow: wrap;
+    justify-content: center;
+
+}
